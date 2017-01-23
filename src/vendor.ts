@@ -11,3 +11,10 @@ import '@angularclass/hmr';
 
 // Other vendors for example jQuery, Lodash or Bootstrap
 // You can import js, ts, css, sass, ...
+import '../node_modules/cesium/Build/Cesium/Cesium.js';
+import '../node_modules/openlayers/dist/ol.js';
+import '../node_modules/openlayers/dist/ol.css';
+
+import '../node_modules/ol3-cesium/dist/ol3cesium.js';
+
+

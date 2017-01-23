@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {MapComponent} from '../map/map.component'
 
 @Component({
   selector: 'my-home',
@@ -12,7 +13,7 @@ export class HomeComponent implements OnInit {
   }
 
   ngOnInit() {
-    console.log('Hello Home');
+    console.log('Hello Home!!');
   }
 
 }
