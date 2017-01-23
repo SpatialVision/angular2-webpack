@@ -1,6 +1,7 @@
 // Helper: root() is defined at the bottom
 var path = require('path');
 var webpack = require('webpack');
+var helpers = require('./helpers');
 
 // Webpack Plugins
 var CommonsChunkPlugin = webpack.optimize.CommonsChunkPlugin;
@@ -203,6 +204,14 @@ module.exports = function makeWebpackConfig() {
       }
     })
   ];
+
+  config.plugins.push(
+    new CopyWebpackPlugin([
+      {
+        from: './node_modules/cesium/Build/Cesium'
+      }
+    ])
+  )
 
   if (!isTest && !isTestWatch) {
     config.plugins.push(
