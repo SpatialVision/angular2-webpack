@@ -17,7 +17,7 @@ import '../node_modules/cesium/Build/Cesium/Cesium.js';
 //import '../node_modules/cesium/Build/Cesium/Assets/*';
 //import '../node_modules/cesium/Build/Cesium/Workers/*';
 
-import '../node_modules/openlayers/dist/ol.js';
+//import '../node_modules/openlayers/dist/ol.js';
 import '../node_modules/openlayers/dist/ol.css';
 
 import '../node_modules/ol3-cesium/dist/ol3cesium.js';
